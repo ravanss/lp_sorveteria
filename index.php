@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sorveteria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
     <header class="container">
@@ -27,7 +27,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="tudobom.jpg" alt="">
+                                    <img src="assets/tudobom.jpg" alt="">
                                 </a>
                             </li>
                             <li class="nav-item">
