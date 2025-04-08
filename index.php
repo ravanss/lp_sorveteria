@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sorveteria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    <header class="container">
+    <header class="container header">
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -48,9 +49,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="banner-content">
-                        <h1>Bem-vindo à nossa Sorveteria!</h1>
-                        <p>Os melhores sabores de sorvete da cidade.</p>
-                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                        <h1>Já pediu seu</h1>
+                        <p>AÇAI?</p>
+                        <a href="#" class="btn btn-primary">Conheça nossos produtos</a>
                     </div>
                     <div class="banner-image">
                         <img src="assets/sorvetes.jpg" alt="Sorvete" class="img-fluid">
