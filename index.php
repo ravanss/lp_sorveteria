@@ -11,7 +11,7 @@
 <body>
     <header class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,6 +43,22 @@
             </div>
         </div>
     </header>
+    <section class="banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner-content">
+                        <h1>Bem-vindo à nossa Sorveteria!</h1>
+                        <p>Os melhores sabores de sorvete da cidade.</p>
+                        <a href="#" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                    <div class="banner-image">
+                        <img src="assets/sorvetes.jpg" alt="Sorvete" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <main>
         <p>Explore nossos deliciosos sabores de sorvete!</p>
     </main>
