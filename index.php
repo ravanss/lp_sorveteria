@@ -7,14 +7,13 @@
     <title>Sorveteria</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/reset.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="container header">
         <div class="row">
             <div class="col-md-12">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container-fluid">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -38,7 +37,6 @@
                                 <a class="nav-link" href="#">Features</a>
                             </li>
                         </ul>
-                        </div>
                     </div>
                 </nav>
             </div>
