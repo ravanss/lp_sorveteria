@@ -1,8 +1,41 @@
-.header{
+@import 'reset.scss';
+@import 'variables.scss';
+
+#header{
     position: fixed;
     top: 0;
     left: 50%;
     width: 100%;
     transform: translateX(-50%);
     background-color: transparent;
+    z-index: 10;
+    .navbar {
+        background-color: transparent !important;
+        #navbarNav{
+            justify-content: center;
+            .navbar-nav{
+                justify-content: center;
+                align-items: center;
+                li{
+                    a{
+                        font-size: 22px;
+                        line-height: 26px;
+                        font-weight: bold;
+                        text-transform: inherit;
+                        color: $white;
+                        text-align: center;
+                        margin: 0 10px;
+                        img{
+                            width: 100px;
+                            height: 100px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.banner{
+    background-color: $roxo;
+    height: 100vh;
 }
