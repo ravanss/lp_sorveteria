@@ -10,6 +10,7 @@ body, html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 *{
     font-family: "Kumbh Sans", sans-serif;
@@ -53,6 +54,64 @@ body, html{
     }
 }
 .banner{
+    position: relative;
     background-color: $roxo;
     height: 100vh;
+    .banner-content{
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        transform: translateY(-50%);
+        h1{
+            font-size: 60px;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 70px;
+            color: #ffa51d;
+        }
+        h2{
+            font-size: 80px;
+            text-transform: uppercase;
+            font-weight: bold;
+            line-height: 90px;
+            color: $white;
+        }
+        a.btn-banner{
+            background-color: $yellow;
+            font-size: 20px;
+            line-height: 24px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $white;
+            padding:15px 30px;
+            margin-top: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: white;
+                color: $yellow;
+            }
+        }
+    }
+    .banner-icone{
+        position: absolute;
+        top: -100%;
+        left: -40%;
+        width: 1000px;
+        transform: rotate(15deg);
+        z-index: 1;
+        &.right{
+            top: -75%;
+            left: auto;
+            right: -70%;
+            transform: rotate(-27deg);
+            width: 1200px;
+        }
+        &.bottom{
+            top: 85%;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
 }

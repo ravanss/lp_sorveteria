@@ -108,6 +108,7 @@ body, html {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 * {
@@ -159,7 +160,71 @@ body, html {
 }
 
 .banner {
+  position: relative;
   background-color: #830c4f;
   height: 100vh;
+}
+.banner .banner-content {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.banner .banner-content h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 70px;
+  color: #ffa51d;
+}
+.banner .banner-content h2 {
+  font-size: 80px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 90px;
+  color: #ffffff;
+}
+.banner .banner-content a.btn-banner {
+  background-color: #ffa51d;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.banner .banner-content a.btn-banner:hover {
+  background-color: white;
+  color: #ffa51d;
+}
+.banner .banner-icone {
+  position: absolute;
+  top: -100%;
+  left: -40%;
+  width: 1000px;
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+  z-index: 1;
+}
+.banner .banner-icone.right {
+  top: -75%;
+  left: auto;
+  right: -70%;
+  -webkit-transform: rotate(-27deg);
+          transform: rotate(-27deg);
+  width: 1200px;
+}
+.banner .banner-icone.bottom {
+  top: 85%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 /*# sourceMappingURL=style.css.map */

@@ -50,8 +50,8 @@
                 <div class="col-md-12">
                     <div class="banner-content">
                         <h1>Já pediu seu</h1>
-                        <p>AÇAI?</p>
-                        <a href="#" class="btn btn-primary">Conheça nossos produtos</a>
+                        <h2>AÇAI?</h2>
+                        <a href="#" class="btn btn-banner">Conheça nossos produtos</a>
                     </div>
                     <div class="banner-image">
                         <img src="assets/sorvetes.jpg" alt="Sorvete" class="img-fluid">
@@ -59,6 +59,9 @@
                 </div>
             </div>
         </div>
+        <img class="banner-icone left" src="assets/icone.png" alt="icone no topo na esquerda da pagina branco">
+        <img class="banner-icone right" src="assets/icone.png" alt="icone no top na direita da pagina branco">
+        <img class="banner-icone bottom" src="assets/icone.png" alt="icone no top na direita da pagina branco">
     </section>
     <main>
         <p>Explore nossos deliciosos sabores de sorvete!</p>
