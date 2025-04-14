@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,7 +30,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="assets/tudobom.jpg" alt="">
+                                    <img src="assets/img/tudobom.png" alt="">
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -47,21 +48,23 @@
     <section class="banner">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-6">
                     <div class="banner-content">
                         <h1>Já pediu seu</h1>
-                        <h2>AÇAI?</h2>
+                        <h2>Açai?</h2>
                         <a href="#" class="btn btn-banner">Conheça nossos produtos</a>
                     </div>
+                </div>
+                <div class="col-md-6">
                     <div class="banner-image">
-                        <img src="assets/sorvetes.jpg" alt="Sorvete" class="img-fluid">
+                        <img src="assets/img/copos.png" alt="Sorvete" class="img-fluid">
                     </div>
                 </div>
             </div>
         </div>
-        <img class="banner-icone left" src="assets/icone.png" alt="icone no topo na esquerda da pagina branco">
-        <img class="banner-icone right" src="assets/icone.png" alt="icone no top na direita da pagina branco">
-        <img class="banner-icone bottom" src="assets/icone.png" alt="icone no top na direita da pagina branco">
+        <img class="banner-icone left" src="assets/img/icone.png" alt="icone no topo na esquerda da pagina branco">
+        <img class="banner-icone right" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
+        <img class="banner-icone bottom" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
     </section>
     <main>
         <p>Explore nossos deliciosos sabores de sorvete!</p>

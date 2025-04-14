@@ -60,20 +60,21 @@ body, html{
     .banner-content{
         position: absolute;
         top: 50%;
-        left: 5%;
+        left: 10%;
         transform: translateY(-50%);
         h1{
             font-size: 60px;
-            text-transform: uppercase;
+            text-transform: inherit;
             font-weight: bold;
             line-height: 70px;
             color: #ffa51d;
         }
         h2{
-            font-size: 80px;
-            text-transform: uppercase;
+            font-family: "Style Script", cursive;
+            font-size: 130px;
+            text-transform: inherit;
             font-weight: bold;
-            line-height: 90px;
+            line-height: 144px;
             color: $white;
         }
         a.btn-banner{
@@ -94,22 +95,29 @@ body, html{
             }
         }
     }
+    .banner-image{
+        position: relative;
+        margin-top: 25%;
+        z-index: 2;
+        img{
+            width: 100%;
+        }
+    }
     .banner-icone{
         position: absolute;
-        top: -100%;
-        left: -40%;
-        width: 1000px;
-        transform: rotate(15deg);
+        top: -84%;
+        left: -22%;
+        width: 700px;
+        transform: rotate(20deg);
         z-index: 1;
         &.right{
-            top: -75%;
+            top: -55%;
             left: auto;
-            right: -70%;
+            right: -35%;
             transform: rotate(-27deg);
-            width: 1200px;
         }
         &.bottom{
-            top: 85%;
+            top: 84%;
             left: 50%;
             transform: translateX(-50%);
         }

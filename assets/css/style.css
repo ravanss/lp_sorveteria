@@ -100,13 +100,6 @@ a {
   font-variation-settings: "YOPQ" 300;
 }
 
-/*style-script*/
-.style-script-regular {
-  font-family: "Style Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-
 /* Gerais */
 body, html {
   font-family: "Kumbh Sans", sans-serif;
@@ -174,23 +167,22 @@ body, html {
 .banner .banner-content {
   position: absolute;
   top: 50%;
-  left: 10%;
+  left: 5%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
 .banner .banner-content h1 {
   font-size: 60px;
-  text-transform: inherit;
+  text-transform: uppercase;
   font-weight: bold;
   line-height: 70px;
   color: #ffa51d;
 }
 .banner .banner-content h2 {
-  font-family: "Style Script", cursive;
-  font-size: 130px;
-  text-transform: inherit;
+  font-size: 80px;
+  text-transform: uppercase;
   font-weight: bold;
-  line-height: 144px;
+  line-height: 90px;
   color: #ffffff;
 }
 .banner .banner-content a.btn-banner {
@@ -212,34 +204,28 @@ body, html {
   background-color: white;
   color: #ffa51d;
 }
-.banner .banner-image {
-  position: relative;
-  margin-top: 25%;
-  z-index: 2;
-}
 .banner .banner-image img {
-  width: 100%;
+  width: 700px;
 }
 .banner .banner-icone {
   position: absolute;
-  top: -84%;
-  left: -22%;
-  width: 700px;
+  top: -100%;
+  left: -26%;
+  width: 800px;
   -webkit-transform: rotate(20deg);
           transform: rotate(20deg);
   z-index: 1;
 }
 .banner .banner-icone.right {
-  top: -55%;
+  top: -76%;
   left: auto;
-  right: -35%;
+  right: -36%;
   -webkit-transform: rotate(-27deg);
           transform: rotate(-27deg);
 }
 .banner .banner-icone.bottom {
-  top: 84%;
+  top: 85%;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
-/*# sourceMappingURL=style.css.map */
