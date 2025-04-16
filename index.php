@@ -45,29 +45,42 @@
             </div>
         </div>
     </header>
-    <section class="banner">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="banner-content">
-                        <h1>Já pediu seu</h1>
-                        <h2>Açai?</h2>
-                        <a href="#" class="btn btn-banner">Conheça nossos produtos</a>
+    <main id="content">
+        <section class="banner">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="banner-content">
+                            <h1>Já pediu seu</h1>
+                            <h2>Açai?</h2>
+                            <a href="#" class="btn btn-banner">Conheça nossos produtos</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="banner-image">
-                        <img src="assets/img/copos.png" alt="Sorvete" class="img-fluid">
+                    <div class="col-md-6">
+                        <div class="banner-image">
+                            <img src="assets/img/copos.png" alt="Sorvete" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <img class="banner-icone left" src="assets/img/icone.png" alt="icone no topo na esquerda da pagina branco">
-        <img class="banner-icone right" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
-        <img class="banner-icone bottom" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
-    </section>
-    <main>
-        <p>Explore nossos deliciosos sabores de sorvete!</p>
+            <img class="banner-icone left" src="assets/img/icone.png" alt="icone no topo na esquerda da pagina branco">
+            <img class="banner-icone right" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
+            <img class="banner-icone bottom" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
+        </section>
+        <section>
+            <div class="conteiner-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center">CONHEÇA NOSSAS LINHAS DE PRODUTOS</h2>
+                        <p class="text-center">
+                            Aqui na Tudo de Bom, fazemos tudo com muito carinho, pensando em cada detalhe para deixar sua experiência ainda mais deliciosa. Nossa linha de sorvetes é feita para encantar, com sabores incríveis e texturas perfeitas, porque acreditamos que o melhor da vida deve ser saboreado com prazer. 
+                            Venha conhecer nossos produtos e se apaixonar! Tudo de bom, sempre pensando em você!
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Sorveteria. Todos os direitos reservados.</p>
