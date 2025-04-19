@@ -140,3 +140,34 @@ body, html{
         }
     }
 }
+.linhas{
+    position: relative;
+    padding: 100px 40px;
+    background-color: $roxo;
+    z-index: 2;
+    h2{
+        font-size: 26px;
+        line-height: 28px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: $white;
+        margin-bottom: 50px;
+    }
+    .linha-subtitle{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 400;
+        text-transform: inherit;
+        color: $white;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .linha-item{
+        background-color: wheat;
+        border:1px solid $white;
+        color: $black;
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+}

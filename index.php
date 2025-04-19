@@ -67,17 +67,27 @@
             <img class="banner-icone right" src="<?php echo get_template_directory_uri()?>/assets/img/icone.png" alt="icone no top na direita da pagina branco">
             <img class="banner-icone bottom" src="<?php echo get_template_directory_uri()?>/assets/img/icone.png" alt="icone no top na direita da pagina branco">
         </section>
-        <section>
+        <section class="linhas">
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <h2 class="text-center">CONHEÇA NOSSAS LINHAS DE PRODUTOS</h2>
-                        <p class="text-center">
+                        <p class="text-center linha-subtitle">
                             Aqui na Tudo de Bom, fazemos tudo com muito carinho, pensando em cada detalhe para deixar sua experiência ainda mais deliciosa. Nossa linha de sorvetes é feita para encantar, com sabores incríveis e texturas perfeitas, porque acreditamos que o melhor da vida deve ser saboreado com prazer. 
                             Venha conhecer nossos produtos e se apaixonar! Tudo de bom, sempre pensando em você!
                         </p>
-
                     </div>
+                </div>
+                <div class="row">
+                    <?php for ($i=0; $i < 4; $i++) { ?>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="linha-item">
+                                <img src="<?php echo get_template_directory_uri()?>/assets/img/linha1.png" alt="Linha 1" class="img-fluid">
+                                <h3>LINHA 1</h3>
+                                <p>Descrição da linha 1.</p>
+                            </div>    
+                        </div>
+                    <?php } ?>
                 </div>
             </div>
         </section>

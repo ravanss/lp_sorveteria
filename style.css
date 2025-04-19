@@ -262,4 +262,36 @@ body, html {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+
+.linhas {
+  position: relative;
+  padding: 100px 40px;
+  background-color: #830c4f;
+  z-index: 2;
+}
+.linhas h2 {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.linhas .linha-subtitle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  text-transform: inherit;
+  color: #ffffff;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.linhas .linha-item {
+  background-color: wheat;
+  border: 1px solid #ffffff;
+  color: #000000;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
 /*# sourceMappingURL=style.css.map */
