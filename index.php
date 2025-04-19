@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
 </head>
 <body>
     <header id="header" class="container">
@@ -30,7 +30,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
-                                    <img src="assets/img/tudobom.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri()?>/assets/img/tudobom.png" alt="Icone da tudo de bom">
                                 </a>
                             </li>
                             <li class="nav-item">
@@ -58,14 +58,14 @@
                     </div>
                     <div class="col-md-6">
                         <div class="banner-image">
-                            <img src="assets/img/copos.png" alt="Sorvete" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/copos.png" alt="Sorvete" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-            <img class="banner-icone left" src="assets/img/icone.png" alt="icone no topo na esquerda da pagina branco">
-            <img class="banner-icone right" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
-            <img class="banner-icone bottom" src="assets/img/icone.png" alt="icone no top na direita da pagina branco">
+            <img class="banner-icone left" src="<?php echo get_template_directory_uri()?>/assets/img/icone.png" alt="icone no topo na esquerda da pagina branco">
+            <img class="banner-icone right" src="<?php echo get_template_directory_uri()?>/assets/img/icone.png" alt="icone no top na direita da pagina branco">
+            <img class="banner-icone bottom" src="<?php echo get_template_directory_uri()?>/assets/img/icone.png" alt="icone no top na direita da pagina branco">
         </section>
         <section>
             <div class="conteiner-fluid">
