@@ -91,6 +91,25 @@
                 </div>
             </div>
         </section>
+        <section class="produtos">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="produtos-content">
+                            <h2>quali</br>dade+</h2>
+                            <h3>Sabor</h3>
+                            <p class="linha-subtitle">O que nossos clientes estão dizendo</p>
+                            <a href="#" class="btn">Pedir um sorvetinho</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div>
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/sorvete.png" alt="Sorvete" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Sorveteria. Todos os direitos reservados.</p>
