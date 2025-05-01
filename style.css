@@ -115,6 +115,13 @@ a {
   font-style: normal;
 }
 
+/*lilita-one*/
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Gerais */
 body, html {
   font-family: "Kumbh Sans", sans-serif;
@@ -293,5 +300,49 @@ body, html {
   color: #000000;
   padding: 20px 15px;
   border-radius: 10px;
+}
+
+.qualidade {
+  position: relative;
+  padding: 30px;
+  background-color: #ffffff;
+}
+.qualidade .qualidade-content {
+  margin-top: 60px;
+}
+.qualidade .qualidade-content h2 {
+  font-size: 70px;
+  line-height: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffa51d;
+  margin-bottom: 30px;
+  text-shadow: -2px 0 #830c4f, 0 2px #830c4f, 2px 0 #830c4f, 0 -2px #830c4f;
+}
+.qualidade .qualidade-content h3 {
+  font-size: 60px;
+  line-height: 58px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #830c4f;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.qualidade .qualidade-content .qualidade-subtitle {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  text-transform: inherit;
+  color: #000000;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.qualidade .qualidade-image img {
+  width: auto;
+  height: auto;
+}
+
+.acai {
+  background-color: #830c4f;
 }
 /*# sourceMappingURL=style.css.map */

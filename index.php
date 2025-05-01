@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
 </head>
@@ -78,37 +79,47 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <?php for ($i=0; $i < 4; $i++) { ?>
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="linha-item">
-                                <img src="<?php echo get_template_directory_uri()?>/assets/img/linha1.png" alt="Linha 1" class="img-fluid">
-                                <h3>LINHA 1</h3>
-                                <p>Descrição da linha 1.</p>
-                            </div>    
-                        </div>
-                    <?php } ?>
-                </div>
             </div>
         </section>
-        <section class="produtos">
+        <section class="qualidade">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
-                        <div class="produtos-content">
-                            <h2>quali</br>dade+</h2>
-                            <h3>Sabor</h3>
-                            <p class="linha-subtitle">O que nossos clientes estão dizendo</p>
-                            <a href="#" class="btn">Pedir um sorvetinho</a>
+                        <div class="qualidade-content">
+                            <h2 class="lilita-one-regular">quali</br>dade+</h2>
+                            <h3 class="lilita-one-regular">Sabor</h3>
+                            <p class="qualidade-subtitle">Mais de 10 OPÇÕES DE SABORES</p>
+                            <p class="qualidade-subtitle">Na Tudo de Bom, temos uma variedade deliciosa de sabores em tamanho único de 2 litros, além de um buffet a quilo para você se servir à vontade! Venha aproveitar qualidade e sabor em cada escolha.</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
-                        <div>
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/sorvete.png" alt="Sorvete" class="img-fluid">
+                        <div class="qualidade-image">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/sorvetes.png" alt="Sorvete" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="acai">
+            <img src="" alt="">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="acai-content">
+                            <h2 class="lilita-one-regular">quali</br>dade+</h2>
+                            <h3 class="lilita-one-regular">Sabor</h3>
+                            <p class="acai-subtitle">Mais de 10 OPÇÕES DE SABORES</p>
+                            <p class="acai-subtitle">Na Tudo de Bom, temos uma variedade deliciosa de sabores em tamanho único de 2 litros, além de um buffet a quilo para você se servir à vontade! Venha aproveitar qualidade e sabor em cada escolha.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="acai-image">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/sorvetes.png" alt="Sorvete" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="" alt="">
         </section>
     </main>
     <footer>

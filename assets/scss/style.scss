@@ -171,3 +171,49 @@ body, html{
         border-radius: 10px;
     }
 }
+
+.qualidade{
+    position: relative;
+    padding: 30px;
+    background-color: $white;
+    .qualidade-content{
+        margin-top: 60px;
+        h2{
+            font-size: 70px;
+            line-height: 68px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $yellow;
+            margin-bottom: 30px;
+            text-shadow: -2px 0 $roxo, 0 2px $roxo, 2px 0 $roxo, 0 -2px $roxo;
+        }
+        h3{
+            font-size: 60px;
+            line-height: 58px;
+            font-weight: 400;
+            text-transform: uppercase;
+            color: #830c4f;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .qualidade-subtitle{
+            font-size: 20px;
+            line-height: 28px;
+            font-weight: 400;
+            text-transform: inherit;
+            color: $black;
+            margin-bottom: 35px;
+            text-align: center;
+        }
+    
+    }
+    .qualidade-image{
+        img{
+            width: auto;
+            height: auto;
+        }
+    }
+}
+.acai{
+    background-color: $roxo;
+}
