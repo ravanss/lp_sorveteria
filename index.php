@@ -121,6 +121,21 @@
             <img class="bolas2" src="<?php echo get_template_directory_uri()?>/assets/img/bolas2.png" alt="Sorvete" class="img-fluid">
         </section>
     </main>
+    <section class="historia">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="historia-image">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/img/tudobom.png" alt="Sorvete" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <h2 class="historia-title">Conheça nossa historia</h2>
+                    <p class="historia-subtitle">A Tudo de Bom é uma sorveteria que nasceu do sonho de oferecer aos nossos clientes uma experiência única e deliciosa. Desde o início, nossa missão sempre foi criar sorvetes e açaí de alta qualidade, feitos com ingredientes frescos e selecionados. Com o tempo, conquistamos a confiança e o carinho dos nossos clientes, tornando-nos uma referência em sabor e qualidade na região.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <p>&copy; <?php echo date("Y"); ?> Sorveteria. Todos os direitos reservados.</p>
     </footer>
