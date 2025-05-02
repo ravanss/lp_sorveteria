@@ -101,25 +101,24 @@
             </div>
         </section>
         <section class="acai">
-            <img src="" alt="">
+            <img class="bolas1" src="<?php echo get_template_directory_uri()?>/assets/img/bolas.png" alt="Sorvete" class="img-fluid">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                         <div class="acai-content">
-                            <h2 class="lilita-one-regular">quali</br>dade+</h2>
-                            <h3 class="lilita-one-regular">Sabor</h3>
-                            <p class="acai-subtitle">Mais de 10 OPÇÕES DE SABORES</p>
-                            <p class="acai-subtitle">Na Tudo de Bom, temos uma variedade deliciosa de sabores em tamanho único de 2 litros, além de um buffet a quilo para você se servir à vontade! Venha aproveitar qualidade e sabor em cada escolha.</p>
+                            <h2 class="style-script-regular">açai</h2>
+                            <h3 class="lilita-one-regular">Tudo de Bom</h3>
+                            <p class="acai-subtitle">Aqui na nossa loja, a linha de Açaí Tudo de Bom, feita com os melhores ingredientes, é perfeita para você que ama um açaí de qualidade. Oferecemos potes nos tamanhos de 2 e 5 litros, além de permitir que você crie a combinação perfeita do seu jeito!</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <div class="acai-image">
-                            <img src="<?php echo get_template_directory_uri()?>/assets/img/sorvetes.png" alt="Sorvete" class="img-fluid">
+                            <img src="<?php echo get_template_directory_uri()?>/assets/img/acai.png" alt="Sorvete" class="img-fluid">
                         </div>
                     </div>
                 </div>
             </div>
-            <img src="" alt="">
+            <img class="bolas2" src="<?php echo get_template_directory_uri()?>/assets/img/bolas2.png" alt="Sorvete" class="img-fluid">
         </section>
     </main>
     <footer>

@@ -189,7 +189,7 @@ body, html {
 
 .banner {
   position: relative;
-  background-color: #830c4f;
+  background-color: #9b0948;
   height: 100vh;
 }
 .banner .banner-content {
@@ -273,7 +273,7 @@ body, html {
 .linhas {
   position: relative;
   padding: 100px 40px;
-  background-color: #830c4f;
+  background-color: #9b0948;
   z-index: 2;
 }
 .linhas h2 {
@@ -317,7 +317,7 @@ body, html {
   text-transform: uppercase;
   color: #ffa51d;
   margin-bottom: 30px;
-  text-shadow: -2px 0 #830c4f, 0 2px #830c4f, 2px 0 #830c4f, 0 -2px #830c4f;
+  text-shadow: -2px 0 #9b0948, 0 2px #9b0948, 2px 0 #9b0948, 0 -2px #9b0948;
 }
 .qualidade .qualidade-content h3 {
   font-size: 60px;
@@ -343,6 +343,58 @@ body, html {
 }
 
 .acai {
-  background-color: #830c4f;
+  position: relative;
+  background-color: #9b0948;
+  padding: 60px 30px;
+}
+.acai .container {
+  position: relative;
+  z-index: 2;
+}
+.acai .acai-content {
+  margin-top: 60px;
+  text-align: center;
+}
+.acai .acai-content h2 {
+  font-size: 100px;
+  line-height: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.acai .acai-content h3 {
+  font-size: 50px;
+  line-height: 54px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.acai .acai-content .acai-subtitle {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  text-transform: inherit;
+  color: #ffffff;
+  margin-bottom: 35px;
+}
+.acai .acai-image img {
+  width: auto;
+  height: auto;
+}
+.acai .bolas1, .acai .bolas2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+.acai .bolas2 {
+  top: auto;
+  left: auto;
+  right: 0;
+  bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
