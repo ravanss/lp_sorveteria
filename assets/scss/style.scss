@@ -276,6 +276,8 @@ body, html{
     position: relative;
     background-color: $roxo;
     padding: 80px 20px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
     img{
         width: 100%;
         max-width: 250px;
@@ -295,5 +297,76 @@ body, html{
         text-transform: inherit;
         color: $white;
         margin-bottom: 20px;
+    }
+}
+footer{
+    position: relative;
+    background-color: $roxo;
+    padding: 60px 20px 20px;
+    .footer-content{
+        .footer-title{
+            font-size: 30px;
+            line-height: 34px;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: $white;
+            margin-bottom: 20px;
+        }
+        h3{
+            text-transform: uppercase;
+        }
+        p, a{
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 400;
+            text-transform: inherit;
+            color: $white;
+            margin-bottom: 20px;
+            display: block;
+        }
+        .social-media{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 20px;
+            a{
+                font-size: 26px;
+                line-height: 26px;
+                font-weight: 400;
+                text-transform: inherit;
+                color: $white;
+                margin: 0 10px;
+                transition: all 0.3s ease-in-out;
+                &:hover, &:focus{
+                    transform: scale(1.1);
+                    color: $yellow;
+                }
+            }
+        }
+    }
+    .footer-image{
+        position: relative;
+        height: 325px;
+        img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 230px;
+        }
+    }
+    .footer-final{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 20px;
+        border-top: 2px solid $white;
+        p, a{
+            font-size: 18px;
+            line-height: 22px;
+            font-weight: 600;
+            text-transform: inherit;
+            color: $white;
+        }
     }
 }

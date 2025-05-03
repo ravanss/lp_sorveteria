@@ -403,6 +403,8 @@ body, html {
   position: relative;
   background-color: #9b0948;
   padding: 80px 20px;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
 }
 .historia img {
   width: 100%;
@@ -423,5 +425,90 @@ body, html {
   text-transform: inherit;
   color: #ffffff;
   margin-bottom: 20px;
+}
+
+footer {
+  position: relative;
+  background-color: #9b0948;
+  padding: 60px 20px 20px;
+}
+footer .footer-content .footer-title {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+footer .footer-content h3 {
+  text-transform: uppercase;
+}
+footer .footer-content p, footer .footer-content a {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  text-transform: inherit;
+  color: #ffffff;
+  margin-bottom: 20px;
+  display: block;
+}
+footer .footer-content .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+footer .footer-content .social-media a {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: inherit;
+  color: #ffffff;
+  margin: 0 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+footer .footer-content .social-media a:hover, footer .footer-content .social-media a:focus {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  color: #ffa51d;
+}
+footer .footer-image {
+  position: relative;
+  height: 325px;
+}
+footer .footer-image img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 230px;
+}
+footer .footer-final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px;
+  border-top: 2px solid #ffffff;
+}
+footer .footer-final p, footer .footer-final a {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  text-transform: inherit;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */

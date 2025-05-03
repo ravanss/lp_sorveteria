@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
 </head>
 <body>
@@ -137,8 +138,47 @@
         </div>
     </section>
     <footer>
-        <p>&copy; <?php echo date("Y"); ?> Sorveteria. Todos os direitos reservados.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-12 ">
+                    <div class="footer-content">
+                        <h2 class="footer-title">Faça o seu pedido por:</h2>
+                        <a href="#">(11)99999-9999</a>
+                        <p>Rua dos Sorvetes, 123 - São Paulo - SP</p>
+                        <p>Segunda a Sexta: 10h às 22h</p>
+                        <p>Sábado e Domingo: 10h às 23h</p>
+                        <h3>FIQUE POR DENTRO DE TUDO NaS SIGA NAS REDES SOCIAIS</h2>
+                        <ul class="social-media">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-12">
+                    <div class="footer-image">
+                        <img src="<?php echo get_template_directory_uri()?>/assets/img/ifood.png" alt="Sorvete" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="footer-final">
+                        <p>&copy; <?php echo date("Y"); ?> #TUDOdeBOM. Todos os direitos reservados.</p>
+                        <a href="#">Politicas de privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
+    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
 </body>
 </html>
