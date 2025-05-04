@@ -150,6 +150,8 @@ body, html {
           transform: translateX(-50%);
   background-color: transparent;
   z-index: 10;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 #header .navbar {
   background-color: transparent !important;
@@ -321,6 +323,7 @@ body, html {
   text-transform: uppercase;
   color: #ffa51d;
   margin-bottom: 30px;
+  text-align: center;
   text-shadow: -2px 0 #9b0948, 0 2px #9b0948, 2px 0 #9b0948, 0 -2px #9b0948;
 }
 .qualidade .qualidade-content h3 {
@@ -409,7 +412,10 @@ body, html {
   border-top: 2px solid white;
   border-bottom: 2px solid white;
 }
-.historia img {
+.historia .historia-image {
+  text-align: center;
+}
+.historia .historia-image img {
   width: 100%;
   max-width: 250px;
 }
@@ -433,7 +439,10 @@ body, html {
 footer {
   position: relative;
   background-color: #9b0948;
-  padding: 60px 20px 20px;
+  padding: 60px 20px 0px;
+}
+footer .footer-content {
+  min-width: 70%;
 }
 footer .footer-content .footer-title {
   font-size: 30px;
@@ -455,7 +464,15 @@ footer .footer-content p, footer .footer-content a {
   margin-bottom: 20px;
   display: block;
 }
-footer .footer-content .social-media {
+footer .footer-social-media h3 {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+footer .footer-social-media .social-media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -467,7 +484,7 @@ footer .footer-content .social-media {
           align-items: center;
   margin-top: 20px;
 }
-footer .footer-content .social-media a {
+footer .footer-social-media .social-media a {
   font-size: 26px;
   line-height: 26px;
   font-weight: 400;
@@ -477,7 +494,7 @@ footer .footer-content .social-media a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-footer .footer-content .social-media a:hover, footer .footer-content .social-media a:focus {
+footer .footer-social-media .social-media a:hover, footer .footer-social-media .social-media a:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
   color: #ffa51d;
@@ -554,7 +571,6 @@ footer .footer-final p, footer .footer-final a {
   text-transform: inherit;
   color: #25d366;
   background-color: #ffffff;
-  border: 2px solid #000000;
   border-radius: 50%;
   width: 50px;
   height: 50px;
