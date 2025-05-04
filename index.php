@@ -177,7 +177,20 @@
             </div>
         </div>
     </footer>
-    
+    <section id="links">
+        <div class="links-content">
+            <div class="modal-item">
+                <a href="#">
+                    <span><i class="fa-brands fa-whatsapp"></i></span>
+                </a>
+            </div>
+            <div class="modal-item">
+                <a href="#">
+                    <span><i class="fa-solid fa-bowl-food"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
 </body>

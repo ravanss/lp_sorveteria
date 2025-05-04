@@ -511,4 +511,61 @@ footer .footer-final p, footer .footer-final a {
   text-transform: inherit;
   color: #ffffff;
 }
+
+#links {
+  position: fixed;
+  top: auto;
+  left: auto;
+  right: 3%;
+  bottom: 3%;
+  z-index: 10;
+}
+#links .links-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#links .links-content .modal-item {
+  margin-bottom: 15px;
+}
+#links .links-content .modal-item:last-of-type {
+  margin-bottom: 0;
+}
+#links .links-content .modal-item:last-of-type span {
+  color: red;
+}
+#links .links-content .modal-item span {
+  position: relative;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: inherit;
+  color: #25d366;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: block;
+  padding: 0px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#links .links-content .modal-item span svg, #links .links-content .modal-item span i, #links .links-content .modal-item span img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: auto;
+}
 /*# sourceMappingURL=style.css.map */
