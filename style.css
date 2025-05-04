@@ -186,6 +186,9 @@ body, html {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
 }
+#header.scrollfix {
+  background-color: #830c4f;
+}
 
 .banner {
   position: relative;
