@@ -140,7 +140,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-12 d-flex">
+                <div class="col-lg-8 col-md-12 d-flex">
                     <div class="footer-content">
                         <h2 class="footer-title">Faça o seu pedido por:</h2>
                         <a href="#">(11)99999-9999</a>
@@ -163,7 +163,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12">
+                <div class="col-lg-4 col-md-12">
                     <div class="footer-image">
                         <img src="<?php echo get_template_directory_uri()?>/assets/img/ifood.png" alt="Sorvete" class="img-fluid">
                     </div>
