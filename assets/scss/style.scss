@@ -38,6 +38,15 @@ body, html{
     background-color: transparent;
     z-index: 10;
     transition: all 0.4s ease-in-out;
+    .navbar-toggler{
+        border: 2px solid $white;
+        outline: none;
+        span{
+            font-size: 20px;
+            line-height: 24px;
+            color: white;
+        }
+    }
     .navbar {
         background-color: transparent !important;
         #navbarNav{
@@ -69,6 +78,7 @@ body, html{
     }
     &.scrollfix{
         background-color: #830c4f;
+        border-top: 2px solid white;
     }
 }
 .banner{
@@ -412,7 +422,7 @@ footer{
                 }
             }
             &:hover, &:focus{
-                transform: translate(1.05);
+                transform: scale(1.05);
             }
             span{
                 position: relative;

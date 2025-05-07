@@ -122,6 +122,76 @@ a {
   font-style: normal;
 }
 
+@media (max-width: 1200px) {
+  body .banner .banner-icone {
+    width: auto;
+  }
+  body .banner .banner-image {
+    margin-top: 40%;
+  }
+  body #links {
+    bottom: 6%;
+  }
+}
+@media (max-width: 992px) {
+  body .historia .historia-title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  body .footer-image {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  body .banner .banner-icone {
+    left: -30%;
+  }
+  body .banner .banner-icone.right {
+    right: -53%;
+  }
+  body .banner .banner-content h1 {
+    font-size: 56px;
+    line-height: 70px;
+  }
+  body .banner .banner-content h2 {
+    font-size: 160px;
+    line-height: 170px;
+  }
+  body .banner .banner-image {
+    margin-top: 55%;
+  }
+}
+@media (max-width: 768px) {
+  body .banner {
+    height: auto;
+  }
+  body .banner .banner-icone {
+    width: 450px;
+    left: -43%;
+    top: -55%;
+  }
+  body .banner .banner-icone.right {
+    top: -55%;
+  }
+  body .banner .banner-content {
+    position: relative;
+    top: auto;
+    left: auto;
+    -webkit-transform: inherit;
+            transform: inherit;
+    margin-top: 108px;
+  }
+  body .banner .banner-image {
+    margin: 20px 0;
+  }
+  body footer .d-flex {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body footer .footer-social-media {
+    margin-bottom: 20px;
+  }
+}
 /* Gerais */
 body, html {
   font-family: "Kumbh Sans", sans-serif;
@@ -152,6 +222,15 @@ body, html {
   z-index: 10;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+#header .navbar-toggler {
+  border: 2px solid #ffffff;
+  outline: none;
+}
+#header .navbar-toggler span {
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
 }
 #header .navbar {
   background-color: transparent !important;
@@ -190,6 +269,7 @@ body, html {
 }
 #header.scrollfix {
   background-color: #830c4f;
+  border-top: 2px solid white;
 }
 
 .banner {
@@ -567,8 +647,8 @@ footer .footer-final p, footer .footer-final a {
   color: red;
 }
 #links .links-content .modal-item:hover, #links .links-content .modal-item:focus {
-  -webkit-transform: translate(1.05);
-          transform: translate(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 #links .links-content .modal-item span {
   position: relative;
