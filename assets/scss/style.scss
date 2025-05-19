@@ -78,7 +78,8 @@ body, html{
     }
     &.scrollfix{
         background-color: #830c4f;
-        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+        box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
     }
 }
 .banner{

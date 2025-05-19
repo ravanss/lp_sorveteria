@@ -28,7 +28,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Sobre Nós</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -36,10 +36,10 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Produtos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
+                                <a class="nav-link" href="#">Contatos</a>
                             </li>
                         </ul>
                     </div>
@@ -73,10 +73,10 @@
             <div class="conteiner-fluid">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="text-center">CONHEÇA NOSSAS LINHAS DE PRODUTOS</h2>
+                        <h2 class="text-center">Açaí Puro e Cremoso – Sabor de Verdade, Só Aqui! </h2>
                         <p class="text-center linha-subtitle">
-                            Aqui na Tudo de Bom, fazemos tudo com muito carinho, pensando em cada detalhe para deixar sua experiência ainda mais deliciosa. Nossa linha de sorvetes é feita para encantar, com sabores incríveis e texturas perfeitas, porque acreditamos que o melhor da vida deve ser saboreado com prazer. 
-                            Venha conhecer nossos produtos e se apaixonar! Tudo de bom, sempre pensando em você!
+                            A liberdade de escolha que você merece! Com mais de 10 combinações de toppings, você monta o seu açaí do jeitinho que você gosta. Seja com frutas frescas, granola crocante, leite em pó, leite condensado, paçoca, ovomaltine ou outras opções deliciosas, a escolha é sua!
+                            Leve para Casa ou Consuma Aqui: Disponível em potes de 2L e 5L, nosso açaí é perfeito para dividir com a galera, curtir aquele evento especial ou simplesmente saborear no conforto de casa.
                         </p>
                     </div>
                 </div>
@@ -108,8 +108,11 @@
                     <div class="col-lg-6 col-sm-12">
                         <div class="acai-content">
                             <h2 class="style-script-regular">açai</h2>
-                            <h3 class="lilita-one-regular">Tudo de Bom</h3>
-                            <p class="acai-subtitle">Aqui na nossa loja, a linha de Açaí Tudo de Bom, feita com os melhores ingredientes, é perfeita para você que ama um açaí de qualidade. Oferecemos potes nos tamanhos de 2 e 5 litros, além de permitir que você crie a combinação perfeita do seu jeito!</p>
+                            <h3 class="lilita-one-regular">Sorvetes de Fabricação Própria – O Sabor da Alegria!</h3>
+                            <p class="acai-subtitle">
+                                Na Tudo de Bom, nossos sorvetes são feitos com ingredientes selecionados e um toque especial para trazer muita alegria em cada colherada. Se você quiser curtir sozinho ou compartilhar com os amigos na festa, evento ou no trabalho, temos o sabor perfeito para todo mundo!
+                                Pote de 2L: Ideal para dividir com a turma ou levar para aquele evento que vai ser ainda mais gostoso com nosso sorvete!
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -131,8 +134,8 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12">
-                    <h2 class="historia-title">Conheça nossa historia</h2>
-                    <p class="historia-subtitle">A Tudo de Bom é uma sorveteria que nasceu do sonho de oferecer aos nossos clientes uma experiência única e deliciosa. Desde o início, nossa missão sempre foi criar sorvetes e açaí de alta qualidade, feitos com ingredientes frescos e selecionados. Com o tempo, conquistamos a confiança e o carinho dos nossos clientes, tornando-nos uma referência em sabor e qualidade na região.</p>
+                    <h2 class="historia-title">Monte Seu Sabor no Nosso Self-Service!</h2>
+                    <p class="historia-subtitle">Na Tudo de Bom, você tem a liberdade de escolher entre nosso açaí cremoso e nossos sorvetes deliciosos, e montar a sobremesa do jeitinho que mais gosta. Com mais de 10 opções de toppings, como frutas frescas, granola crocante, paçoca, leite condensado, chocolate e muito mais, cada visita se torna uma experiência única de sabor. Tudo isso no nosso self-service, onde você tem total controle para criar a combinação perfeita para o seu paladar. E se bateu a vontade de levar para casa, temos potes de 2L, ideais para compartilhar com a galera ou curtir sozinho. A escolha é sua, e o sabor é sempre incrível!</p>
                 </div>
             </div>
         </div>
@@ -152,13 +155,7 @@
                         <h3>FIQUE POR DENTRO DE TUDO NaS SIGA NAS REDES SOCIAIS</h2>
                         <ul class="social-media">
                             <li>
-                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                            </li>
-                            <li>
-                                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                                <a href="https://www.instagram.com/tudodebomgru/?hl=pt"><i class="fa-brands fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div>

@@ -269,12 +269,14 @@ body, html {
 }
 #header.scrollfix {
   background-color: #830c4f;
-  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  -webkit-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .banner {
   position: relative;
-  background-color: #9b0948;
+  background-color: #830c4f;
   height: 100vh;
   border-bottom: 2px solid white;
 }
@@ -359,7 +361,7 @@ body, html {
 .linhas {
   position: relative;
   padding: 100px 40px;
-  background-color: #9b0948;
+  background-color: #830c4f;
   z-index: 2;
 }
 .linhas h2 {
@@ -404,7 +406,7 @@ body, html {
   color: #ffa51d;
   margin-bottom: 30px;
   text-align: center;
-  text-shadow: -2px 0 #9b0948, 0 2px #9b0948, 2px 0 #9b0948, 0 -2px #9b0948;
+  text-shadow: -2px 0 #830c4f, 0 2px #830c4f, 2px 0 #830c4f, 0 -2px #830c4f;
 }
 .qualidade .qualidade-content h3 {
   font-size: 60px;
@@ -431,7 +433,7 @@ body, html {
 
 .acai {
   position: relative;
-  background-color: #9b0948;
+  background-color: #830c4f;
   padding: 60px 30px;
 }
 .acai .container {
@@ -487,7 +489,7 @@ body, html {
 
 .historia {
   position: relative;
-  background-color: #9b0948;
+  background-color: #830c4f;
   padding: 80px 20px;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
@@ -518,7 +520,7 @@ body, html {
 
 footer {
   position: relative;
-  background-color: #9b0948;
+  background-color: #830c4f;
   padding: 60px 20px 0px;
 }
 footer .footer-content {
