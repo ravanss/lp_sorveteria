@@ -55,7 +55,7 @@
                         <div class="banner-content">
                             <h1>Já pediu seu</h1>
                             <h2>Açai?</h2>
-                            <a href="#" class="btn btn-banner">Conheça nossos produtos</a>
+                            <a href="https://www.ifood.com.br/delivery/guarulhos-sp/tudo-de-bom-acai-e-sorvetes-centro/4b1daaf2-c3dc-4645-9f30-de8750291e34?utm_medium=share" class="btn btn-banner">Conheça nossos produtos</a>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-12">
