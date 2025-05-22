@@ -28,7 +28,7 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Sobre Nós</a>
+                                <a class="nav-link" href="#linhas">Sobre Nós</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">
@@ -36,10 +36,10 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Produtos</a>
+                                <a class="nav-link" href="#qualidade">Produtos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contatos</a>
+                                <a class="nav-link" href="#links">Contatos</a>
                             </li>
                         </ul>
                     </div>
@@ -146,8 +146,8 @@
                 <div class="col-lg-8 col-md-12 d-flex">
                     <div class="footer-content">
                         <h2 class="footer-title">Faça o seu pedido por:</h2>
-                        <a href="#">(11)99999-9999</a>
-                        <p>Rua dos Sorvetes, 123 - São Paulo - SP</p>
+                        <a href="#">(11) 99892-8323</a>
+                        <p>Av. Salgado Filho, 4064 - Vila Rio de Janeiro, Guarulhos - SP, 07115-000</p>
                         <p>Segunda a Sexta: 10h às 22h</p>
                         <p>Sábado e Domingo: 10h às 23h</p>
                     </div>
@@ -155,14 +155,14 @@
                         <h3>FIQUE POR DENTRO DE TUDO NaS SIGA NAS REDES SOCIAIS</h2>
                         <ul class="social-media">
                             <li>
-                                <a href="https://www.instagram.com/tudodebomgru/?hl=pt"><i class="fa-brands fa-instagram"></i></a>
+                                <a href="https://www.instagram.com/tudodebomgru/?hl=pt" target="_blank"><i class="fa-brands fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-12">
                     <div class="footer-image">
-                        <img src="<?php echo get_template_directory_uri()?>/assets/img/ifood.png" alt="Sorvete" class="img-fluid">
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/ifood.png" alt="Sorvete" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -170,7 +170,7 @@
                 <div class="col-md-12">
                     <div class="footer-final">
                         <p>&copy; <?php echo date("Y"); ?> #TUDOdeBOM. Todos os direitos reservados.</p>
-                        <a href="#">Politicas de privacidade</a>
+                        <a href="#" target="_blank">Politicas de privacidade</a>
                     </div>
                 </div>
             </div>
@@ -179,13 +179,15 @@
     <section id="links">
         <div class="links-content">
             <div class="modal-item">
-                <a href="#">
+                <a href="https://wa.link/hmpd27" target="_blank">
                     <span><i class="fa-brands fa-whatsapp"></i></span>
                 </a>
             </div>
             <div class="modal-item">
-                <a href="#">
-                    <span><i class="fa-solid fa-bowl-food"></i></span>
+                <a href="https://www.ifood.com.br/delivery/guarulhos-sp/tudo-de-bom-acai-e-sorvetes-centro/4b1daaf2-c3dc-4645-9f30-de8750291e34?utm_medium=share" target="_blank">
+                    <span>
+                        <img src="<?php echo get_template_directory_uri();?>/assets/img/icone-ifood.png" alt="icone do ifood">
+                    </span>
                 </a>
             </div>
         </div>

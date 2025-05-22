@@ -49,8 +49,30 @@
         }
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     body{
+        #header{
+            .navbar{
+                .navbar-toggler{
+                    border: 2px solid $yellow;
+                    box-shadow: none;
+                    span{
+                        color: $yellow;
+                    }
+                }
+                #navbarNav{
+                    margin-top: 15px;
+                    .navbar-nav{
+                        align-items: flex-start;
+                    }
+                }    
+            }
+            &.menuative{
+                background-color: #830c4f;
+                border-bottom: 2px solid white;
+                box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+            }
+        }
         .banner{
             height: auto;
             .banner-icone {
@@ -79,6 +101,14 @@
             .footer-social-media{
                 margin-bottom: 20px;
             }
+            .footer-final{
+                a{
+                    margin-top: 20px;
+                }
+            }
+        }
+        #links{
+            bottom: 6%;
         }
     }
 }
