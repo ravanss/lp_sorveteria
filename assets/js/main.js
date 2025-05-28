@@ -14,3 +14,12 @@ jQuery(document).ready(function() {
         jQuery("#header").toggleClass("menuative");
     });
 });
+
+wow = new WOW({
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+})
+wow.init();
