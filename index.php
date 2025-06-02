@@ -53,7 +53,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div class="banner-content wow slideInLeft" data-wow-duration="2s" data-wow-delay="5s" data-wow-offset="10"  data-wow-iteration="10">
+                        <div class="banner-content">
                             <h1>Já pediu seu</h1>
                             <h2>Açai?</h2>
                             <a href="https://www.ifood.com.br/delivery/guarulhos-sp/tudo-de-bom-acai-e-sorvetes-centro/4b1daaf2-c3dc-4645-9f30-de8750291e34?utm_medium=share" class="btn btn-banner">Conheça nossos produtos</a>
@@ -73,7 +73,7 @@
         <section class="linhas">
             <div class="conteiner-fluid">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
                         <h2 class="text-center">Açaí Puro e Cremoso – Sabor de Verdade, Só Aqui! </h2>
                         <p class="text-center linha-subtitle">
                             A liberdade de escolha que você merece! Com mais de 10 combinações de toppings, você monta o seu açaí do jeitinho que você gosta. Seja com frutas frescas, granola crocante, leite em pó, leite condensado, paçoca, ovomaltine ou outras opções deliciosas, a escolha é sua!

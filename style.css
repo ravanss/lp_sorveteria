@@ -704,4 +704,8 @@ footer .footer-final p, footer .footer-final a {
   width: auto;
   max-width: 35px;
 }
+
+.wow {
+  visibility: hidden;
+}
 /*# sourceMappingURL=style.css.map */
