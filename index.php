@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/animated.min.css"/>
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/assets/css/animated.min.css"/>
     <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri()?>/style.css">
 </head>
 <body>
@@ -71,7 +71,7 @@
         <section class="linhas">
             <div class="conteiner-fluid">
                 <div class="row">
-                    <div class="col-md-12 wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="col-md-12 wow slideInLeft">
                         <h2 class="text-center">Açaí Puro e Cremoso – Sabor de Verdade, Só Aqui! </h2>
                         <p class="text-center linha-subtitle">
                             A liberdade de escolha que você merece! Com mais de 10 combinações de toppings, você monta o seu açaí do jeitinho que você gosta. Seja com frutas frescas, granola crocante, leite em pó, leite condensado, paçoca, ovomaltine ou outras opções deliciosas, a escolha é sua!
@@ -194,7 +194,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"></script>
-    <script src="<?php echo get_template_directory_uri()?>/assets/js/wow.min.js"></script>
+    <script src="<?php echo get_template_directory_uri()?>/node_modules/wowjs/dist/wow.min.js"></script>
     <script src="<?php echo get_template_directory_uri()?>/assets/js/main.js"></script>
 </body>
 </html>
