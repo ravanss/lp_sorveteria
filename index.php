@@ -51,7 +51,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div class="banner-content">
+                        <div class="banner-content wow fadeIn">
                             <h1>Já pediu seu</h1>
                             <h2>Açai?</h2>
                             <a href="https://www.ifood.com.br/delivery/guarulhos-sp/tudo-de-bom-acai-e-sorvetes-centro/4b1daaf2-c3dc-4645-9f30-de8750291e34?utm_medium=share" class="btn btn-banner">Conheça nossos produtos</a>
@@ -71,7 +71,7 @@
         <section class="linhas">
             <div class="conteiner-fluid">
                 <div class="row">
-                    <div class="col-md-12 wow slideInLeft">
+                    <div class="col-md-12 wow fadeInUp">
                         <h2 class="text-center">Açaí Puro e Cremoso – Sabor de Verdade, Só Aqui! </h2>
                         <p class="text-center linha-subtitle">
                             A liberdade de escolha que você merece! Com mais de 10 combinações de toppings, você monta o seu açaí do jeitinho que você gosta. Seja com frutas frescas, granola crocante, leite em pó, leite condensado, paçoca, ovomaltine ou outras opções deliciosas, a escolha é sua!
@@ -106,7 +106,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-sm-12">
                         <div class="acai-content">
-                            <h2 class="style-script-regular">açai</h2>
+                            <h2 class="style-script-regular wow zoomIn">açai</h2>
                             <h3 class="lilita-one-regular">Sorvetes de Fabricação Própria – O Sabor da Alegria!</h3>
                             <p class="acai-subtitle">
                                 Na Tudo de Bom, nossos sorvetes são feitos com ingredientes selecionados e um toque especial para trazer muita alegria em cada colherada. Se você quiser curtir sozinho ou compartilhar com os amigos na festa, evento ou no trabalho, temos o sabor perfeito para todo mundo!
@@ -128,7 +128,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-sm-12">
-                    <div class="historia-image">
+                    <div class="historia-image wow pulse" data-wow-duration="2s" data-wow-iteration="999">
                         <img src="<?php echo get_template_directory_uri()?>/assets/img/tudobom.png" alt="Sorvete" class="img-fluid">
                     </div>
                 </div>
@@ -168,14 +168,14 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="footer-final">
-                        <p>&copy; <?php echo date("Y"); ?> #TUDOdeBOM. Todos os direitos reservados.</p>
-                        <a href="#" target="_blank">Politicas de privacidade</a>
+                        <p class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">&copy; <?php echo date("Y"); ?> #TUDOdeBOM. Todos os direitos reservados.</p>
+                        <a href="#" target="_blank" class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s"">Politicas de privacidade</a>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-    <section id="links">
+    <section id="links" class="wow fadeIn"  data-wow-duration="1s" data-wow-delay="3s">
         <div class="links-content">
             <div class="modal-item">
                 <a href="https://wa.link/hmpd27" target="_blank">
