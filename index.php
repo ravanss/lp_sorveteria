@@ -51,7 +51,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-12">
-                        <div class="banner-content wow fadeIn">
+                        <div class="banner-content wow fadeIn" data-wow-delay="0.5s">
                             <h1>Já pediu seu</h1>
                             <h2>Açai?</h2>
                             <a href="https://www.ifood.com.br/delivery/guarulhos-sp/tudo-de-bom-acai-e-sorvetes-centro/4b1daaf2-c3dc-4645-9f30-de8750291e34?utm_medium=share" class="btn btn-banner">Conheça nossos produtos</a>
@@ -169,7 +169,7 @@
                 <div class="col-md-12">
                     <div class="footer-final">
                         <p class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">&copy; <?php echo date("Y"); ?> #TUDOdeBOM. Todos os direitos reservados.</p>
-                        <a href="#" target="_blank" class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s"">Politicas de privacidade</a>
+                        <a href="#" target="_blank" class="wow fadeInUp" data-wow-duration="0.3s" data-wow-delay="0.5s">Politicas de privacidade</a>
                     </div>
                 </div>
             </div>
